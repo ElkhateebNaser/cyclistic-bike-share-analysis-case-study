@@ -280,7 +280,7 @@ select 'ride_id'
 ,'start_lng'
 ,'end_lat'
 ,'end_lng'
-,'member_casualtable rdata'
+,'member_casual'
 union all
 table rdata
 into outfile 'combined-data.csv'     
