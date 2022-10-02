@@ -268,8 +268,21 @@ where ended_at <= started_at;
 -- 5,000,000 nice rows.
 
 -- export
-table rdata 
-into outfile 'combined data.csv'     
-fields terminated by ','  
-optionally enclosed by '"'    
+select 'ride_id'
+,'rideable_type'
+,'started_at'
+,'ended_at'
+,'start_station_name'
+,'start_station_id'
+,'end_station_name'
+,'end_station_id'
+,'start_lat'
+,'start_lng'
+,'end_lat'
+,'end_lng'
+,'member_casualtable rdata'
+union all
+table rdata
+into outfile 'combined-data.csv'     
+fields terminated by ','      
 lines terminated by '\r\n';
