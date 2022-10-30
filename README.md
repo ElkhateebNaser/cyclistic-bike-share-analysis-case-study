@@ -2,7 +2,7 @@
 
 ## Data Analysis Case Study /How Does a Bike-Share Navigate Speedy Success?
 
-### Introduction
+## Introduction
 In this case study, I will follow the common data analysis process steps: ASK, PREPARE, PROCESS, ANALYZE, SHARE, ACT to support the marketing manager to make a data driven decision. Divvy Bike is a bike-share company based in Chicago. The director of marketing needs to Test a hypothesis that the company should pay attention to annual membership. I will participate with Compare between casual and annual membership to help the marketing manager to develop marketing strategy to convert the casual to annual membership.
 
 ### Assets
@@ -32,7 +32,7 @@ The data used in this project is availble publice on source https://divvy-tripda
 ## Data Processing
 ***Pleae see the attached R Script for the step-by-step wrangling process***
 
-## Summary of your analysis
+## Summary of this analysis
 This project concluded that developing the cyclistic membership is essential and more valuabe for the business in sense of
 - Cyclistic riders do 33% more rides than casual riders
 - Cyclistic rider continue use the servise during the whole year on contrary the casual riders disappear in winter months
